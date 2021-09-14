@@ -5,7 +5,7 @@ import com.plcoding.cryptocurrencyappyt.domain.model.Coin
 
 data class CoinDto(
     val id:String,
-    @SerializedName("is_Active")
+    @SerializedName("is_active")
     val isActive:Boolean,
     @SerializedName("is_new")
     val isNew:Boolean,
